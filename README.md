@@ -11,7 +11,9 @@ Gym website with member registration, login and dashboard (PHP + MySQL).
 - `dashboard/dashboard.php` — member dashboard (login required)
 - `logout/logout.php` — end the session
 
-Photos live in `images/`. The original card is `chubbs.jpg`. The coaching photos are one scene each: deadlift, squat with the hook, bench with the wooden hand, and a press. The range, the lesson, the portrait, and the happy place come from the Chubbs asset pack. A picture is not reused on a second page. A missing image shows a placeholder.
+Photos live in `images/`. The original card is `chubbs.jpg`. Coaching photos show Chubbs spotting and cueing — deadlift, squat, bench, row, lunge, kettlebell, pull-up, carry, and stretch — each file used once. Facility photos are the 9th Green itself: the clubhouse, the floor, the night range, the racks, the turf lane, the weekend food cart, the supplement counter, the lobby, the lockers, the class corner, the sled, and the practice green. The driving range, the lesson, the portrait, and the grass portrait come from the Chubbs asset pack. A picture is not reused on a second page. A missing image shows a placeholder.
+
+The gym is the 9th Green at 9:00 PM Waterbury, in Waterbury, Connecticut. The first 100 guests are free. Chubbs is on the floor Monday through Friday, 7am to 3pm. Weekends, hot dog and hamburger carts travel the green.
 
 ## Run it locally
 

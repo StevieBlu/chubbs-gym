@@ -5,14 +5,14 @@ $title = 'Chubbs Gym | Your gym. Your pace.';
 include __DIR__ . '/config/header.php';
 ?>
 <section class="hero" id="home">
-  <div class="hero-media"><?= pic($base, 'hero-deadlift.jpg', 'Chubbs coaching a deadlift, wooden hand on the lifter’s back, a 45 on each side of the bar', 'cover') ?></div>
+  <div class="hero-media"><?= pic($base, 'chubbs-deadlift.jpg', 'Chubbs sweating while he coaches a deadlift, wooden hand on the lifter’s back', 'cover') ?></div>
   <div class="hero-shade"></div>
   <div class="wrap hero-copy">
     <p class="kicker">CHUBBS GYM &nbsp; IN HONOR OF CHUBBS PETERSON</p>
     <h1>Your strength.<br>Your pace.<br>Your gym.</h1>
     <p class="lead">A real floor, real racks, and a coach who talks you through the next set. Walk in rusty. Leave with a plan.</p>
-    <a class="btn" href="register/register.php">Join Chubbs Gym</a>
-    <a class="link-light" href="#banter">Hear Chubbs and Happy</a>
+    <a class="btn" href="register/register.php">Claim a free spot</a>
+    <a class="link-light" href="#grounds">See the 9th Green</a>
   </div>
 </section>
 
@@ -26,52 +26,10 @@ include __DIR__ . '/config/header.php';
     </div>
     <div class="callout">
       <div>
-        <strong>Looking for training that fits your day?</strong>
-        <span>Your member dashboard has its own home.</span>
+        <strong>Free for the first 100 guests.</strong>
+        <span>The full experience, on the house. When those spots are gone, they’re gone. Hurry.</span>
       </div>
-      <a class="btn btn-outline" href="login/login.php">Open member dashboard</a>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="banter">
-  <div class="wrap">
-    <p class="label center">Still yelling across the floor</p>
-    <h2 class="center">Chubbs and Happy, between sets</h2>
-    <p class="center muted">The lessons left the driving range. The arguments came with them.</p>
-    <div class="banter">
-      <article>
-        <p class="who chubbs">Chubbs</p>
-        <p class="line">“Just tap it in. Give it a little tappy. Tap, tap, taparoo.”</p>
-        <p class="who happy">Happy</p>
-        <p class="line">“Grandma! Grandma!”</p>
-        <p class="aside">Last plate, last putt. Same advice. Find the happy place, then tap it in.</p>
-      </article>
-      <article>
-        <p class="who chubbs">Chubbs</p>
-        <p class="line">“Think of a place that’s really perfect. Your own happy place. Go there, and all your anger will just disappear.”</p>
-        <p class="who happy">Happy</p>
-        <p class="line">“Better.”</p>
-        <p class="who chubbs">Chubbs</p>
-        <p class="line">“Now putt.”</p>
-        <p class="aside">On this floor he says “now lift.” You still can’t squat angry.</p>
-      </article>
-      <article>
-        <p class="who chubbs">Chubbs</p>
-        <p class="line">“It’s all in the hips. It’s all in the hips.”</p>
-        <p class="who happy">Happy</p>
-        <p class="line">“Get off of me!”</p>
-        <p class="who chubbs">Chubbs</p>
-        <p class="line">“Just easin’ the tension, baby.”</p>
-        <p class="aside">Hips drive the squat. The hug is optional. The cue is not.</p>
-      </article>
-      <article>
-        <p class="who chubbs">Chubbs</p>
-        <p class="line">“Damned alligator bit my hand off. Cut me down in my prime.”</p>
-        <p class="who happy">Happy</p>
-        <p class="line">“Oh my God. You’re pretty sick, Chubbs.”</p>
-        <p class="aside">He tells it worse if you ask. Then he spots the next set with the hook.</p>
-      </article>
+      <a class="btn btn-outline" href="register/register.php">Take a spot</a>
     </div>
   </div>
 </section>
@@ -92,22 +50,21 @@ include __DIR__ . '/config/header.php';
   <div class="wrap split flip">
     <div>
       <p class="label">The bench</p>
-      <h2>The wooden hand stays in the spot</h2>
-      <p>On the bench the hook switches for the wooden hand from the old days. It rests on the bar while you press. Same loading rule: a 45 on each side, the number level, nothing extra painted on the plate.</p>
-      <p>Happy once said the game required goofy pants and a fat ass. Shorts are fine. The spotter is not optional.</p>
-      <a class="link" href="gallery.php">See the rest of him</a>
+      <h2>The hook stays on the bar</h2>
+      <p>He spots from behind the bench, steel hook on the bar, sweat on his face, and he does not wander off mid-rep. Shorts are fine. The spotter is not optional.</p>
+      <a class="link" href="gallery.php">See the rest of the floor</a>
     </div>
-    <?= pic($base, 'bench-spot.jpg', 'Chubbs spotting a bench press with his wooden hand, 45s loaded upright', 'rounded') ?>
+    <?= pic($base, 'chubbs-bench.jpg', 'Chubbs spotting a bench press with his hook on the bar, sweating', 'rounded') ?>
   </div>
 </section>
 
 <section class="section tint">
   <div class="wrap split">
-    <?= pic($base, 'press-coach.jpg', 'Chubbs cueing a dumbbell press with his wooden hand', 'rounded') ?>
+    <?= pic($base, 'chubbs-row.jpg', 'Chubbs cueing a one-arm row with his hook, sweat on his face', 'rounded') ?>
     <div>
-      <p class="label">The press</p>
-      <h2>Elbows, then the weight</h2>
-      <p>He cues a press the way he cued a swing. The wooden hand finds the elbow, the other hand stays out of the way, and the 45s on the rack behind you still read like a real gym.</p>
+      <p class="label">The row</p>
+      <h2>Hinge, then pull</h2>
+      <p>One hand on the bench, the dumbbell drives back, and the hook stays up by the shoulder so you can see the cue. He is sweating because he is in the set with you.</p>
       <a class="link" href="register/register.php">Learn more</a>
     </div>
   </div>
@@ -121,7 +78,7 @@ include __DIR__ . '/config/header.php';
       <p>The counter is stocked like a real pro shop: pre-workout, whey protein, creatine, BCAAs. A coach will also talk through what to eat around the work, in plain language, on a weekday.</p>
       <a class="link" href="register/register.php">Learn more</a>
     </div>
-    <?= pic($base, 'supplements.jpg', 'Fruit, shakers, and the nutrition counter beside the racks', 'rounded') ?>
+    <?= pic($base, 'facility-counter.jpg', 'Pre-workout, whey protein, creatine, and BCAAs on the nutrition counter', 'rounded') ?>
   </div>
 </section>
 
@@ -135,6 +92,63 @@ include __DIR__ . '/config/header.php';
       <p>Bring the question. He will answer it once, then you lift.</p>
       <a class="btn" href="register/register.php">Book the first session</a>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="label center">Same coach, different station</p>
+    <h2 class="center">He sweats through the session with you.</h2>
+    <p class="center muted">A lunge, a kettlebell, a pull-up. Wooden hand one day, hook the next. He is in the set, not in a portrait.</p>
+    <div class="pose-row">
+      <figure>
+        <?= pic($base, 'chubbs-lunge.jpg', 'Chubbs cueing a lunge with his hook at the front knee', 'rounded') ?>
+        <figcaption>The lunge. Hook on the front knee, both of them working.</figcaption>
+      </figure>
+      <figure>
+        <?= pic($base, 'chubbs-kettle.jpg', 'Chubbs hinging to demonstrate a kettlebell lift, hook hand out', 'rounded') ?>
+        <figcaption>The kettlebell. He hinges first, then you copy it.</figcaption>
+      </figure>
+      <figure>
+        <?= pic($base, 'chubbs-pullup.jpg', 'Chubbs coaching a dead hang, wooden hand open', 'rounded') ?>
+        <figcaption>The bar. A dead hang, and the wooden hand showing where the hip goes.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="section tint" id="grounds">
+  <div class="wrap">
+    <p class="label center">Waterbury, Connecticut</p>
+    <h2 class="center">The 9th Green at 9:00 PM.</h2>
+    <p class="center muted">The gym sits on the range. Racks inside, a turf lane beside them, the green out the window. Chubbs is here Monday through Friday, 7am to 3pm. He is not here around the clock. On weekends, hot dog and hamburger carts travel the green.</p>
+    <div class="mosaic">
+      <figure class="wide">
+        <?= pic($base, 'facility-exterior.jpg', 'The 9th Green clubhouse at dusk, range lights on, autumn trees', 'rounded') ?>
+        <figcaption>The clubhouse, when the range lights come on.</figcaption>
+      </figure>
+      <figure>
+        <?= pic($base, 'facility-cart.jpg', 'A hot dog and hamburger cart on the grass beside the driving range', 'rounded') ?>
+        <figcaption>Weekend carts. Hot dogs and hamburgers, moving around the green.</figcaption>
+      </figure>
+      <figure class="wide">
+        <?= pic($base, 'facility-floor.jpg', 'The weight room with ALL IN THE HIPS painted on the floor and the range outside', 'rounded') ?>
+        <figcaption>The floor. The range is right outside the glass.</figcaption>
+      </figure>
+      <figure>
+        <?= pic($base, 'facility-racks.jpg', 'Three green squat racks, each bar loaded with one upright 45 a side, TAP IT IN on the wall', 'rounded') ?>
+        <figcaption>Racks loaded the way a real gym loads them.</figcaption>
+      </figure>
+      <figure>
+        <?= pic($base, 'facility-turf.jpg', 'Indoor turf lane with a putter and a hockey stick, TAP IT IN on the grass', 'rounded') ?>
+        <figcaption>The turf lane. Putter, hockey stick, and a short walk to the racks.</figcaption>
+      </figure>
+      <figure class="wide">
+        <?= pic($base, 'facility-range-night.jpg', 'The driving range at night under floodlights, yardage signs down the fairway', 'rounded') ?>
+        <figcaption>Nine o’clock. The bays are lit and the tree line is dark.</figcaption>
+      </figure>
+    </div>
+    <p class="center more"><a class="link" href="gallery.php">More of the building, the lockers, and the green</a></p>
   </div>
 </section>
 
@@ -181,7 +195,7 @@ include __DIR__ . '/config/header.php';
     <ol class="steps">
       <li><span>1</span><h3>Start a conversation</h3><p>Share your goals and ask the questions on your mind.</p></li>
       <li><span>2</span><h3>Understand the options</h3><p>Learn what an assessment means for your next steps.</p></li>
-      <li><span>3</span><h3>Make a personal plan</h3><p>Discuss schedule, cost, and any training recommendations.</p></li>
+      <li><span>3</span><h3>Make a personal plan</h3><p>It’s free. Talk through the schedule and the first session before the hundred spots fill.</p></li>
       <li><span>4</span><h3>Keep moving forward</h3><p>Know what to expect at your next session.</p></li>
     </ol>
   </div>
@@ -193,9 +207,8 @@ include __DIR__ . '/config/header.php';
     <h2 class="center">Good questions. Clear answers.</h2>
     <p class="center muted">A few things to know about membership, training and this website.</p>
     <details><summary>Is personal training different from group classes?</summary><p>Yes. Personal training is one-on-one coaching built around your goals. Group classes are led sessions with other members.</p></details>
-    <details><summary>Where is the gym, and can I join now?</summary><p>You can create a member account today. Gym address, hours and membership pricing will be confirmed by the front desk.</p></details>
-    <details><summary>What should I know about payment?</summary><p>Membership tiers and payment options are still being set up. Ask the front desk for current pricing.</p></details>
-    <details><summary>Are all services available every day?</summary><p>Not always. Class and coaching schedules vary, so your coach will confirm what is available.</p></details>
+    <details><summary>Where is the gym, and can I join now?</summary><p>The 9th Green at 9:00 PM Waterbury, in Waterbury, Connecticut. Admission is free so the public can taste the full experience. Space is limited to the first 100 guests, so hurry.</p></details>
+    <details><summary>Are all services available every day?</summary><p>No. Chubbs can’t be there around the clock. He is on the floor Monday through Friday, 7am to 3pm. On weekends the golf range runs rotating food carts — hot dogs and hamburgers — that travel around the green.</p></details>
   </div>
 </section>
 
@@ -206,10 +219,10 @@ include __DIR__ . '/config/header.php';
     <p class="center muted">Train in the gym. Track your progress online.</p>
     <div class="duo">
       <div class="panel">
-        <p class="label">In-gym training</p>
-        <h3>Visit the gym.</h3>
-        <p>A dedicated space for your workout. Address and hours are awaiting confirmation.</p>
-        <a class="btn" href="register/register.php">Join now</a>
+        <p class="label">Waterbury, Connecticut</p>
+        <h3>The 9th Green at 9:00 PM Waterbury.</h3>
+        <p>Chubbs is here Monday through Friday, 7am to 3pm. Weekends, hot dog and hamburger carts roll around the green. The first 100 guests get the full experience free. Hurry.</p>
+        <a class="btn" href="register/register.php">Claim a free spot</a>
       </div>
       <div class="panel dark">
         <p class="label">Chubbs Gym members</p>

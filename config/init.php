@@ -39,8 +39,9 @@ function take_flash() {
 
 // Shows an <img> if the file exists, otherwise a styled placeholder.
 function pic($base, $file, $alt, $class = '') {
-    if (file_exists(__DIR__ . '/../images/' . $file)) {
-        return '<img src="' . e($base) . 'images/' . e($file) . '" alt="' . e($alt) . '" class="' . e($class) . '">';
+    $path = __DIR__ . '/../images/' . $file;
+    if (file_exists($path)) {
+        return '<img src="' . e($base) . 'images/' . e($file) . '?v=' . filemtime($path) . '" alt="' . e($alt) . '" class="' . e($class) . '">';
     }
     return '<div class="ph ' . e($class) . '" role="img" aria-label="' . e($alt) . '"><span>' . e($alt) . '</span></div>';
 }

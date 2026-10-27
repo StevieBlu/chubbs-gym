@@ -4,7 +4,8 @@
   <div class="wrap foot">
     <div>
       <a class="brand" href="<?= e($base) ?>index.php">CHUBBS<b>GYM</b></a>
-      <p>Your gym. Your pace. Your second home.</p>
+      <p>The 9th Green at 9:00 PM Waterbury<br>Waterbury, Connecticut</p>
+      <p>Monday–Friday, 7am–3pm. Weekend hot dog and hamburger carts on the green.</p>
     </div>
     <div>
       <strong>Explore</strong>

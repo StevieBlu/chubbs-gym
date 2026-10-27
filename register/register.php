@@ -9,8 +9,8 @@ include __DIR__ . '/../config/header.php';
 ?>
 <section class="section">
   <div class="wrap form-wrap">
-    <h1 class="page-title">Join Chubbs Gym</h1>
-    <p class="muted">Create your member account in under a minute.</p>
+    <h1 class="page-title">Claim a free spot</h1>
+    <p class="muted">The full experience is free so the public can taste it. Space is limited to the first 100 guests, and there is nothing to pay. Hurry.</p>
     <?php if ($flash): ?><div class="alert <?= e($flash['type']) ?>" role="alert"><?= e($flash['msg']) ?></div><?php endif; ?>
     <form action="registerprocess.php" method="POST" class="form">
       <?= csrf_field() ?>

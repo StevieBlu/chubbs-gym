@@ -8,7 +8,7 @@ include __DIR__ . '/../config/header.php';
 <section class="section">
   <div class="wrap">
     <h1 class="page-title">Welcome, <?= e($_SESSION['username']) ?>.</h1>
-    <p class="muted">This is your member dashboard. Only logged-in members can see it.</p>
+    <p class="muted">This is your member dashboard. Chubbs is on the floor Monday through Friday, 7am to 3pm. Weekends, the hot dog and hamburger carts are out on the green.</p>
     <div class="cards">
       <article><p class="label">Next step</p><h3>Book a session</h3><p>Session booking is coming soon. Ask the front desk in the meantime.</p></article>
       <article><p class="label">Your plan</p><h3>Workout tracking</h3><p>Track your workouts here once this feature launches.</p></article>
