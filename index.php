@@ -97,8 +97,8 @@ include __DIR__ . '/config/header.php';
     <div>
       <p class="label">The floor</p>
       <h2>Racks, plates, and daylight</h2>
-      <p>This is a gym. Barbells on the wall, kettlebells in a row, benches that have seen real work. It is also a room you can walk into without a performance.</p>
-      <p>Happy once said the game required goofy pants and a fat ass. Chubbs bet the accountant next door still could not drive it four hundred yards. Shorts are fine. The effort is the membership.</p>
+      <p>Custom iron, not a showroom wall. Green and gold plates stamped with the lines, a putter and a hockey stick on the same rack, and NOW LIFT worn into the floor.</p>
+      <p>Happy once said the game required goofy pants and a fat ass. Chubbs bet the accountant next door still could not drive it four hundred yards. That number is on a machine in the corner. Shorts are fine.</p>
       <a class="link" href="gallery.php">See the floor</a>
     </div>
     <?= pic($base, 'weights.jpg', 'Barbells, plates, and kettlebells in the gym', 'rounded') ?>
@@ -111,7 +111,7 @@ include __DIR__ . '/config/header.php';
     <div>
       <p class="label">Class schedule</p>
       <h2>Group classes</h2>
-      <p>Train next to other people and find a rhythm that sticks. Kettlebells, a count, and a coach who will tell you which class fits your level.</p>
+      <p>Class meets under the words on the wall. Kettlebells, a count, and a coach who will tell you which hour fits your level.</p>
       <a class="link" href="register/register.php">Learn more</a>
     </div>
   </div>
@@ -122,7 +122,7 @@ include __DIR__ . '/config/header.php';
     <div>
       <p class="label">Fuel</p>
       <h2>Nutrition counseling</h2>
-      <p>The work is only part of it. A coach will talk through what to eat around training, in plain language, and build a plan you can follow on a weekday.</p>
+      <p>The counter is stocked like a real pro shop: pre-workout, whey protein, creatine, BCAAs. A coach will also talk through what to eat around the work, in plain language, on a weekday.</p>
       <a class="link" href="register/register.php">Learn more</a>
     </div>
     <?= pic($base, 'supplements.jpg', 'Fruit, shakers, and the nutrition counter beside the racks', 'rounded') ?>
@@ -135,8 +135,8 @@ include __DIR__ . '/config/header.php';
     <h2 class="center">Buff, and the hook stays on the bar.</h2>
     <p class="center muted">Chubbs trains the floor he used to only talk about. The prosthetic loads plates, braces a rack, and still points at your hips.</p>
     <div class="split shots">
-      <figure><?= pic($base, 'chubbs-buff-curl.jpg', 'Chubbs curling a dumbbell, prosthetic hook braced on the rack', 'rounded') ?><figcaption>One dumbbell. One hook. No excuses.</figcaption></figure>
-      <figure><?= pic($base, 'prosthetic-bar.jpg', 'Chubbs’s metal hook resting on a loaded barbell', 'rounded') ?><figcaption>The fake hand is just another piece of gym gear.</figcaption></figure>
+      <figure><?= pic($base, 'chubbs-buff-curl.jpg', 'Chubbs curling beside a plate stamped TAP IT IN', 'rounded') ?><figcaption>The plate says tap it in. So does he.</figcaption></figure>
+      <figure><?= pic($base, 'prosthetic-bar.jpg', 'Chubbs pressing a bar stamped CHUBBS, with NOW LIFT on the pad', 'rounded') ?><figcaption>His name on the iron. Now lift on the pad.</figcaption></figure>
     </div>
   </div>
 </section>

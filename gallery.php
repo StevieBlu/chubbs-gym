@@ -4,22 +4,23 @@ $base = '';
 $title = 'Gallery | Chubbs Gym';
 include __DIR__ . '/config/header.php';
 $items = [
-  ['gym-floor.jpg', 'The main floor at Chubbs Gym, racks in the daylight', 'The floor'],
-  ['chubbs-hero.jpg', 'Chubbs on the gym floor with his prosthetic hook', 'Chubbs, still coaching'],
-  ['chubbs-coaching.jpg', 'Chubbs cueing a squat with his prosthetic hand', 'A squat cue'],
-  ['chubbs-buff-curl.jpg', 'Chubbs curling, hook braced on the rack', 'The curl'],
-  ['prosthetic-bar.jpg', 'Chubbs’s prosthetic hook on a loaded barbell', 'The hook'],
-  ['chubbs-buff-floor.jpg', 'Chubbs beside a loaded bar in the gym', 'On the floor'],
-  ['weights.jpg', 'Barbells, plates, and kettlebells', 'The rack'],
-  ['group-class.jpg', 'A small group class with kettlebells', 'Group class'],
-  ['supplements.jpg', 'Fruit, shakers, and the nutrition counter', 'The counter'],
+  ['gym-floor.jpg', 'Gym floor stenciled ALL IN THE HIPS, wall reading HAPPY PLACE', 'All in the hips'],
+  ['chubbs-buff-floor.jpg', 'Chubbs on the turf lane over a JUST TAP IT IN floor stencil', 'Just tap it in'],
+  ['chubbs-hero.jpg', 'Chubbs with his hook beside a wall that says TAP IT IN', 'Tap it in'],
+  ['chubbs-coaching.jpg', 'Chubbs cueing a squat under a wall that says ALL IN THE HIPS', 'The hips'],
+  ['weights.jpg', 'Custom green and gold plates stamped TAP IT IN, CHUBBS, and 400', 'The plates'],
+  ['machine.jpg', 'Custom green machine labeled 400 YARDS, floor stenciled EASE IT', '400 yards'],
+  ['group-class.jpg', 'Kettlebell class under a wall that says HAPPY PLACE', 'Happy place'],
+  ['chubbs-buff-curl.jpg', 'Chubbs curling beside a plate that says TAP IT IN', 'The curl'],
+  ['prosthetic-bar.jpg', 'Chubbs lifting a bar stamped CHUBBS, pad reading NOW LIFT', 'Now lift'],
+  ['supplements.jpg', 'Pre-workout, whey protein, creatine, and BCAAs on the gym counter', 'The counter'],
   ['chubbs.jpg', 'The original Chubbs Peterson trading card', 'The card'],
 ];
 ?>
 <section class="section">
   <div class="wrap">
     <h1 class="page-title">Gallery</h1>
-    <p class="muted">The floor, the hook, and the card. Click a photo to open it full size.</p>
+    <p class="muted">The lines are on the floor, the walls, and the iron. Click a photo to open it full size.</p>
     <div class="gallery">
       <?php foreach ($items as [$file, $alt, $label]): ?>
         <figure>

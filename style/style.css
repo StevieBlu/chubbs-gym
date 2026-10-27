@@ -48,6 +48,7 @@ img{max-width:100%;display:block}
 .kicker{font-size:.8rem;letter-spacing:.16em;font-weight:600;margin-bottom:1.4rem;opacity:.9}
 .hero h1{margin-bottom:.5em}
 .lead{font-size:1.2rem;margin-bottom:2rem}
+.hero .lead{max-width:26rem}
 
 /* sections */
 .section{padding:clamp(3.5rem,8vw,6.5rem) 0}
