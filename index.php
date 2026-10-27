@@ -5,24 +5,24 @@ $title = 'Chubbs Gym | Your gym. Your pace.';
 include __DIR__ . '/config/header.php';
 ?>
 <section class="hero" id="home">
-  <div class="hero-media"><?= pic($base, 'chubbs.jpg', 'Chubbs Peterson, the inspiration behind Chubbs Gym', 'cover') ?></div>
+  <div class="hero-media"><?= pic($base, 'chubbs-hero.jpg', 'Chubbs Peterson, buff, with his prosthetic hook, on the gym floor', 'cover') ?></div>
   <div class="hero-shade"></div>
   <div class="wrap hero-copy">
     <p class="kicker">CHUBBS GYM &nbsp; IN HONOR OF CHUBBS PETERSON</p>
     <h1>Your strength.<br>Your pace.<br>Your gym.</h1>
-    <p class="lead">A welcoming space for your questions.<br>A thoughtful approach to your next workout.</p>
+    <p class="lead">A real floor, real racks, and a coach who talks you through the next set. Walk in rusty. Leave with a plan.</p>
     <a class="btn" href="register/register.php">Join Chubbs Gym</a>
-    <a class="link-light" href="#services">Get to know your training options</a>
+    <a class="link-light" href="#banter">Hear Chubbs and Happy</a>
   </div>
 </section>
 
 <section class="section" id="about">
   <div class="wrap">
-    <h2 class="center">Discover a different kind of gym</h2>
+    <h2 class="center">A gym that makes room, then makes you work</h2>
     <div class="pillars">
-      <div><h3>People first.</h3><p>A workout should make room for you. Your goals, your schedule, and what helps you feel comfortable.</p></div>
-      <div><h3>Clarity at every step.</h3><p>Understand your options and the reasons behind them, so the next step feels like a decision you can make.</p></div>
-      <div><h3>Thoughtful training.</h3><p>A personal plan begins with a conversation and an assessment, not a one-size-fits-all promise.</p></div>
+      <div><h3>People first.</h3><p>Walk in unsure. Someone learns your name before they load the bar. The iron is here. So is a coach.</p></div>
+      <div><h3>The work is the work.</h3><p>Squats, presses, classes, and the reason for each one. You should know what the next set is for.</p></div>
+      <div><h3>A coach in the corner.</h3><p>Chubbs lost a hand and kept the lesson. Form first. Then the weight. Then you come back.</p></div>
     </div>
     <div class="callout">
       <div>
@@ -34,13 +34,59 @@ include __DIR__ . '/config/header.php';
   </div>
 </section>
 
+<section class="floorband">
+  <?= pic($base, 'gym-floor.jpg', 'Sunlight, squat racks, and the main floor at Chubbs Gym', 'band') ?>
+</section>
+
+<section class="section" id="banter">
+  <div class="wrap">
+    <p class="label center">Still yelling across the floor</p>
+    <h2 class="center">Chubbs and Happy, between sets</h2>
+    <p class="center muted">The lessons left the driving range. The arguments came with them.</p>
+    <div class="banter">
+      <article>
+        <p class="who chubbs">Chubbs</p>
+        <p class="line">“Just tap it in. Give it a little tappy. Tap, tap, taparoo.”</p>
+        <p class="who happy">Happy</p>
+        <p class="line">“Grandma! Grandma!”</p>
+        <p class="aside">Last plate, last putt. Same advice. Find the happy place, then tap it in.</p>
+      </article>
+      <article>
+        <p class="who chubbs">Chubbs</p>
+        <p class="line">“Think of a place that’s really perfect. Your own happy place. Go there, and all your anger will just disappear.”</p>
+        <p class="who happy">Happy</p>
+        <p class="line">“Better.”</p>
+        <p class="who chubbs">Chubbs</p>
+        <p class="line">“Now putt.”</p>
+        <p class="aside">On this floor he says “now lift.” You still can’t squat angry.</p>
+      </article>
+      <article>
+        <p class="who chubbs">Chubbs</p>
+        <p class="line">“It’s all in the hips. It’s all in the hips.”</p>
+        <p class="who happy">Happy</p>
+        <p class="line">“Get off of me!”</p>
+        <p class="who chubbs">Chubbs</p>
+        <p class="line">“Just easin’ the tension, baby.”</p>
+        <p class="aside">Hips drive the squat. The hug is optional. The cue is not.</p>
+      </article>
+      <article>
+        <p class="who chubbs">Chubbs</p>
+        <p class="line">“Damned alligator bit my hand off. Cut me down in my prime.”</p>
+        <p class="who happy">Happy</p>
+        <p class="line">“Oh my God. You’re pretty sick, Chubbs.”</p>
+        <p class="aside">He tells it worse if you ask. Then he spots the next set with the hook.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
 <section class="section tint">
   <div class="wrap split">
-    <?= pic($base, 'personaltrainer.jpg', 'A trainer coaching a member through a lift', 'rounded') ?>
+    <?= pic($base, 'chubbs-coaching.jpg', 'Chubbs cueing a squat with his prosthetic hand', 'rounded') ?>
     <div>
       <h2>Personal training</h2>
-      <p>Whether it has been six weeks or six years, the first step can be a simple conversation.</p>
-      <p>Talk through your goals, ask your questions, and learn what comes next before you commit to a plan.</p>
+      <p>Six weeks off or six years. The first session is a conversation, then a bar, then a set you can repeat.</p>
+      <p>Your coach writes the plan down. You ask the awkward questions. Nobody hands you a one-size program and walks away.</p>
       <a class="btn" href="register/register.php">Plan your first session</a>
     </div>
   </div>
@@ -49,23 +95,48 @@ include __DIR__ . '/config/header.php';
 <section class="section">
   <div class="wrap split flip">
     <div>
-      <p class="label">Class schedule</p>
-      <h2>Group classes</h2>
-      <p>Train with others and find a rhythm that sticks. Start with a conversation about your goals, then learn what each class involves and which one suits your level.</p>
-      <a class="link" href="register/register.php">Learn more</a>
+      <p class="label">The floor</p>
+      <h2>Racks, plates, and daylight</h2>
+      <p>This is a gym. Barbells on the wall, kettlebells in a row, benches that have seen real work. It is also a room you can walk into without a performance.</p>
+      <p>Happy once said the game required goofy pants and a fat ass. Chubbs bet the accountant next door still could not drive it four hundred yards. Shorts are fine. The effort is the membership.</p>
+      <a class="link" href="gallery.php">See the floor</a>
     </div>
-    <?= pic($base, 'weights.jpg', 'Barbells racked in the main gym floor', 'rounded') ?>
+    <?= pic($base, 'weights.jpg', 'Barbells, plates, and kettlebells in the gym', 'rounded') ?>
   </div>
 </section>
 
 <section class="section tint">
   <div class="wrap split">
-    <?= pic($base, 'supplements.jpg', 'Supplements and nutrition products', 'rounded') ?>
+    <?= pic($base, 'group-class.jpg', 'A small group class training with kettlebells', 'rounded') ?>
+    <div>
+      <p class="label">Class schedule</p>
+      <h2>Group classes</h2>
+      <p>Train next to other people and find a rhythm that sticks. Kettlebells, a count, and a coach who will tell you which class fits your level.</p>
+      <a class="link" href="register/register.php">Learn more</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split flip">
     <div>
       <p class="label">Fuel</p>
       <h2>Nutrition counseling</h2>
-      <p>Training is only part of the picture. A nutrition coach can help you understand what to eat, when, and why, and build a plan you can actually follow.</p>
+      <p>The work is only part of it. A coach will talk through what to eat around training, in plain language, and build a plan you can follow on a weekday.</p>
       <a class="link" href="register/register.php">Learn more</a>
+    </div>
+    <?= pic($base, 'supplements.jpg', 'Fruit, shakers, and the nutrition counter beside the racks', 'rounded') ?>
+  </div>
+</section>
+
+<section class="section tint" id="hook">
+  <div class="wrap">
+    <p class="label center">The hand came off. The coaching did not.</p>
+    <h2 class="center">Buff, and the hook stays on the bar.</h2>
+    <p class="center muted">Chubbs trains the floor he used to only talk about. The prosthetic loads plates, braces a rack, and still points at your hips.</p>
+    <div class="split shots">
+      <figure><?= pic($base, 'chubbs-buff-curl.jpg', 'Chubbs curling a dumbbell, prosthetic hook braced on the rack', 'rounded') ?><figcaption>One dumbbell. One hook. No excuses.</figcaption></figure>
+      <figure><?= pic($base, 'prosthetic-bar.jpg', 'Chubbs’s metal hook resting on a loaded barbell', 'rounded') ?><figcaption>The fake hand is just another piece of gym gear.</figcaption></figure>
     </div>
   </div>
 </section>
@@ -81,27 +152,27 @@ include __DIR__ . '/config/header.php';
 <section class="section tint" id="welcome">
   <div class="wrap split">
     <div>
-      <h2>Welcome to Chubbs Gym!</h2>
-      <p class="lead-dark">A dedicated gym experience, with you at the center.</p>
-      <p>A workout should make space for your questions and give you a clear understanding of your options. Start with your goals, talk through what matters to you, and learn what comes next.</p>
-      <p>Our gym is named in honor of Chubbs Peterson, who taught that the right coach changes everything.</p>
+      <h2>Welcome to Chubbs Gym.</h2>
+      <p class="lead-dark">Named for the coach. Built like a gym. Run like he is still watching your hips.</p>
+      <p>Bring your questions. You will get a straight answer, a first workout, and a reason to come back on Thursday.</p>
+      <p>The card is how a lot of members meet him. The floor is where you stay.</p>
     </div>
-    <figure><?= pic($base, 'chubbs.jpg', 'Chubbs Peterson trading card', 'rounded') ?><figcaption>Chubbs Peterson</figcaption></figure>
+    <figure><?= pic($base, 'chubbs.jpg', 'Chubbs Peterson trading card', 'rounded') ?><figcaption>Chubbs Peterson. The card that started it.</figcaption></figure>
   </div>
 </section>
 
 <section class="section" id="services">
   <div class="wrap">
     <p class="label center">Training, with you at the center</p>
-    <h2 class="center">Explore our services</h2>
-    <p class="center muted">Your coach will confirm what is available and help you choose what is right for you.</p>
+    <h2 class="center">Explore the floor</h2>
+    <p class="center muted">Your coach will tell you what is on the schedule and which part of it is yours.</p>
     <div class="cards">
-      <article><p class="label">A strong foundation</p><h3>Strength training</h3><p>Everyday training starts with understanding your body.</p><a class="link" href="register/register.php">Explore</a></article>
-      <article><p class="label">Confidence in your body</p><h3>Personal training</h3><p>Work toward what you want to change, at your pace.</p><a class="link" href="register/register.php">Explore</a></article>
-      <article><p class="label">Energy. Community. You.</p><h3>Group classes</h3><p>Find a class that matches your level and your schedule.</p><a class="link" href="register/register.php">Explore</a></article>
-      <article><p class="label">Know your next step</p><h3>Nutrition counseling</h3><p>A conversation about your habits and a plan to improve them.</p><a class="link" href="register/register.php">Explore</a></article>
-      <article><p class="label">Room for your questions</p><h3>Comfort &amp; beginners</h3><p>Share what would help you feel more at ease.</p><a class="link" href="register/register.php">Explore</a></article>
-      <article><p class="label">A simple place to start</p><h3>New member visits</h3><p>Get to know the gym and talk through your goals.</p><a class="link" href="register/register.php">Explore</a></article>
+      <article><p class="label">The bar and the rack</p><h3>Strength training</h3><p>Everyday work starts with a lift you understand and a weight you can own.</p><a class="link" href="register/register.php">Explore</a></article>
+      <article><p class="label">One coach</p><h3>Personal training</h3><p>Your pace, your sets, written down. Change what you came to change.</p><a class="link" href="register/register.php">Explore</a></article>
+      <article><p class="label">Show up with people</p><h3>Group classes</h3><p>A class that matches your level, your week, and your knees.</p><a class="link" href="register/register.php">Explore</a></article>
+      <article><p class="label">Around the work</p><h3>Nutrition counseling</h3><p>What to eat, when, and why, in language you can use at dinner.</p><a class="link" href="register/register.php">Explore</a></article>
+      <article><p class="label">First day welcome</p><h3>Comfort &amp; beginners</h3><p>Tell us what would make the floor feel less like a test.</p><a class="link" href="register/register.php">Explore</a></article>
+      <article><p class="label">See it first</p><h3>New member visits</h3><p>Walk the racks, meet a coach, and talk through the goal before you join.</p><a class="link" href="register/register.php">Explore</a></article>
     </div>
   </div>
 </section>

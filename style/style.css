@@ -42,8 +42,8 @@ img{max-width:100%;display:block}
 /* hero */
 .hero{position:relative;min-height:clamp(520px,84vh,760px);display:flex;align-items:center;color:#fff;overflow:hidden;background:var(--green-d)}
 .hero-media,.hero-shade{position:absolute;inset:0}
-.hero-media .cover{width:100%;height:100%;object-fit:cover;object-position:70% 25%}
-.hero-shade{background:linear-gradient(90deg,rgba(10,35,15,.92) 0%,rgba(10,35,15,.7) 45%,rgba(10,35,15,.15) 100%)}
+.hero-media .cover{width:100%;height:100%;object-fit:cover;object-position:72% 28%}
+.hero-shade{background:linear-gradient(90deg,rgba(10,35,15,.9) 0%,rgba(10,35,15,.55) 46%,rgba(10,35,15,.18) 100%)}
 .hero-copy{position:relative;padding:5rem 0}
 .kicker{font-size:.8rem;letter-spacing:.16em;font-weight:600;margin-bottom:1.4rem;opacity:.9}
 .hero h1{margin-bottom:.5em}
@@ -74,6 +74,20 @@ details p{margin:.8rem 0 0;color:var(--muted)}
 .panel{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:2.4rem}
 .panel.dark{background:var(--green-d);border-color:var(--green-d);color:#fff}
 .panel.dark .label{color:#b9e7c0}
+
+/* floor photo + Chubbs/Happy banter */
+.floorband{line-height:0}
+.floorband .band{width:100%;height:min(62vh,540px);object-fit:cover;object-position:center 60%}
+.banter{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:2.4rem}
+.banter article{background:var(--cream);border:1px solid var(--line);border-radius:var(--r);padding:1.4rem 1.5rem 1.2rem}
+.banter p{max-width:none}
+.who{font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin:0 0 .2rem}
+.who.chubbs{color:var(--green)}
+.who.happy{color:#8a5a12}
+.line{font-family:Fraunces,Georgia,serif;font-size:1.28rem;line-height:1.35;margin:0 0 .85rem}
+.aside{color:var(--muted);font-size:.95rem;margin:.2rem 0 0;padding-top:.7rem;border-top:1px solid var(--line)}
+.shots{margin-top:2.2rem}
+.shots figcaption{font-size:.95rem}
 
 /* placeholders + gallery */
 .ph{display:grid;place-items:center;background:linear-gradient(135deg,#dfeadb,#c3d8bd);color:var(--green-d);font-weight:500;text-align:center;padding:1rem;min-height:220px;border-radius:var(--r)}
@@ -107,7 +121,8 @@ details p{margin:.8rem 0 0;color:var(--muted)}
   .menu-btn{display:block}
   .nav{display:none;position:absolute;top:72px;left:0;right:0;background:#fff;flex-direction:column;align-items:flex-start;padding:1.2rem 4%;border-bottom:1px solid var(--line)}
   .nav.open{display:flex}
-  .pillars,.cards,.steps,.trio,.duo,.split,.foot{grid-template-columns:1fr}
+  .pillars,.cards,.steps,.trio,.duo,.split,.foot,.banter{grid-template-columns:1fr}
+  .floorband .band{height:42vh}
   .split.flip>div{order:-1}
   .hero-shade{background:rgba(10,35,15,.78)}
   .link-light{display:block;margin:1.2rem 0 0}

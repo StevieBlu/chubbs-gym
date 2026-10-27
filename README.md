@@ -11,7 +11,7 @@ Gym website with member registration, login and dashboard (PHP + MySQL).
 - `dashboard/dashboard.php` — member dashboard (login required)
 - `logout/logout.php` — end the session
 
-Photos live in `images/`. `chubbs.jpg` is included. Add `personaltrainer.jpg`, `weights.jpg`, and `supplements.jpg` when you have them. Missing images show a placeholder.
+Photos live in `images/`. The original card is `chubbs.jpg`. The floor, classes, and buff Chubbs (hook and all) are the other files in that folder. A missing image shows a placeholder.
 
 ## Run it locally
 
