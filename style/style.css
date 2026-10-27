@@ -76,9 +76,7 @@ details p{margin:.8rem 0 0;color:var(--muted)}
 .panel.dark{background:var(--green-d);border-color:var(--green-d);color:#fff}
 .panel.dark .label{color:#b9e7c0}
 
-/* floor photo + Chubbs/Happy banter */
-.floorband{line-height:0}
-.floorband .band{width:100%;height:min(62vh,540px);object-fit:cover;object-position:center 60%}
+/* Chubbs and Happy banter */
 .banter{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:2.4rem}
 .banter article{background:var(--cream);border:1px solid var(--line);border-radius:var(--r);padding:1.4rem 1.5rem 1.2rem}
 .banter p{max-width:none}
@@ -123,7 +121,6 @@ details p{margin:.8rem 0 0;color:var(--muted)}
   .nav{display:none;position:absolute;top:72px;left:0;right:0;background:#fff;flex-direction:column;align-items:flex-start;padding:1.2rem 4%;border-bottom:1px solid var(--line)}
   .nav.open{display:flex}
   .pillars,.cards,.steps,.trio,.duo,.split,.foot,.banter{grid-template-columns:1fr}
-  .floorband .band{height:42vh}
   .split.flip>div{order:-1}
   .hero-shade{background:rgba(10,35,15,.78)}
   .link-light{display:block;margin:1.2rem 0 0}

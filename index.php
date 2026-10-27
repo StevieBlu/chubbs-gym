@@ -5,7 +5,7 @@ $title = 'Chubbs Gym | Your gym. Your pace.';
 include __DIR__ . '/config/header.php';
 ?>
 <section class="hero" id="home">
-  <div class="hero-media"><?= pic($base, 'chubbs-hero.jpg', 'Chubbs Peterson, buff, with his prosthetic hook, on the gym floor', 'cover') ?></div>
+  <div class="hero-media"><?= pic($base, 'hero-deadlift.jpg', 'Chubbs coaching a deadlift, wooden hand on the lifter’s back, a 45 on each side of the bar', 'cover') ?></div>
   <div class="hero-shade"></div>
   <div class="wrap hero-copy">
     <p class="kicker">CHUBBS GYM &nbsp; IN HONOR OF CHUBBS PETERSON</p>
@@ -32,10 +32,6 @@ include __DIR__ . '/config/header.php';
       <a class="btn btn-outline" href="login/login.php">Open member dashboard</a>
     </div>
   </div>
-</section>
-
-<section class="floorband">
-  <?= pic($base, 'gym-floor.jpg', 'Sunlight, squat racks, and the main floor at Chubbs Gym', 'band') ?>
 </section>
 
 <section class="section" id="banter">
@@ -82,11 +78,11 @@ include __DIR__ . '/config/header.php';
 
 <section class="section tint">
   <div class="wrap split">
-    <?= pic($base, 'chubbs-coaching.jpg', 'Chubbs cueing a squat with his prosthetic hand', 'rounded') ?>
+    <?= pic($base, 'squat-spot.jpg', 'Chubbs spotting a squat with his hook, one upright 45 on each side of the bar', 'rounded') ?>
     <div>
       <h2>Personal training</h2>
-      <p>Six weeks off or six years. The first session is a conversation, then a bar, then a set you can repeat.</p>
-      <p>Your coach writes the plan down. You ask the awkward questions. Nobody hands you a one-size program and walks away.</p>
+      <p>This is the spot. Chubbs is behind the rack, hook on the bar, while you sit into the squat. One 45 a side to start, the number right-side up, and he stays until the hips finish the rep.</p>
+      <p>Six weeks off or six years. The first session is a conversation, then a bar you can actually unload.</p>
       <a class="btn" href="register/register.php">Plan your first session</a>
     </div>
   </div>
@@ -95,23 +91,23 @@ include __DIR__ . '/config/header.php';
 <section class="section">
   <div class="wrap split flip">
     <div>
-      <p class="label">The floor</p>
-      <h2>Racks, plates, and daylight</h2>
-      <p>Custom iron, not a showroom wall. Green and gold plates stamped with the lines, a putter and a hockey stick on the same rack, and NOW LIFT worn into the floor.</p>
-      <p>Happy once said the game required goofy pants and a fat ass. Chubbs bet the accountant next door still could not drive it four hundred yards. That number is on a machine in the corner. Shorts are fine.</p>
-      <a class="link" href="gallery.php">See the floor</a>
+      <p class="label">The bench</p>
+      <h2>The wooden hand stays in the spot</h2>
+      <p>On the bench the hook switches for the wooden hand from the old days. It rests on the bar while you press. Same loading rule: a 45 on each side, the number level, nothing extra painted on the plate.</p>
+      <p>Happy once said the game required goofy pants and a fat ass. Shorts are fine. The spotter is not optional.</p>
+      <a class="link" href="gallery.php">See the rest of him</a>
     </div>
-    <?= pic($base, 'weights.jpg', 'Barbells, plates, and kettlebells in the gym', 'rounded') ?>
+    <?= pic($base, 'bench-spot.jpg', 'Chubbs spotting a bench press with his wooden hand, 45s loaded upright', 'rounded') ?>
   </div>
 </section>
 
 <section class="section tint">
   <div class="wrap split">
-    <?= pic($base, 'group-class.jpg', 'A small group class training with kettlebells', 'rounded') ?>
+    <?= pic($base, 'press-coach.jpg', 'Chubbs cueing a dumbbell press with his wooden hand', 'rounded') ?>
     <div>
-      <p class="label">Class schedule</p>
-      <h2>Group classes</h2>
-      <p>Class meets under the words on the wall. Kettlebells, a count, and a coach who will tell you which hour fits your level.</p>
+      <p class="label">The press</p>
+      <h2>Elbows, then the weight</h2>
+      <p>He cues a press the way he cued a swing. The wooden hand finds the elbow, the other hand stays out of the way, and the 45s on the rack behind you still read like a real gym.</p>
       <a class="link" href="register/register.php">Learn more</a>
     </div>
   </div>
@@ -129,14 +125,15 @@ include __DIR__ . '/config/header.php';
   </div>
 </section>
 
-<section class="section tint" id="hook">
-  <div class="wrap">
-    <p class="label center">The hand came off. The coaching did not.</p>
-    <h2 class="center">Buff, and the hook stays on the bar.</h2>
-    <p class="center muted">Chubbs trains the floor he used to only talk about. The prosthetic loads plates, braces a rack, and still points at your hips.</p>
-    <div class="split shots">
-      <figure><?= pic($base, 'chubbs-buff-curl.jpg', 'Chubbs curling beside a plate stamped TAP IT IN', 'rounded') ?><figcaption>The plate says tap it in. So does he.</figcaption></figure>
-      <figure><?= pic($base, 'prosthetic-bar.jpg', 'Chubbs pressing a bar stamped CHUBBS, with NOW LIFT on the pad', 'rounded') ?><figcaption>His name on the iron. Now lift on the pad.</figcaption></figure>
+<section class="section tint" id="lesson">
+  <div class="wrap split">
+    <?= pic($base, 'lesson.jpg', 'Chubbs teaching on the green, wooden hand out, it’s all in the hips', 'rounded') ?>
+    <div>
+      <p class="label">The lesson that stuck</p>
+      <h2>It’s all in the hips.</h2>
+      <p>He said it on the green with the wooden hand out, and he says it in the rack. The golf lesson and the squat are the same cue.</p>
+      <p>Bring the question. He will answer it once, then you lift.</p>
+      <a class="btn" href="register/register.php">Book the first session</a>
     </div>
   </div>
 </section>

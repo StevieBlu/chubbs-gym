@@ -4,23 +4,15 @@ $base = '';
 $title = 'Gallery | Chubbs Gym';
 include __DIR__ . '/config/header.php';
 $items = [
-  ['gym-floor.jpg', 'Gym floor stenciled ALL IN THE HIPS, wall reading HAPPY PLACE', 'All in the hips'],
-  ['chubbs-buff-floor.jpg', 'Chubbs on the turf lane over a JUST TAP IT IN floor stencil', 'Just tap it in'],
-  ['chubbs-hero.jpg', 'Chubbs with his hook beside a wall that says TAP IT IN', 'Tap it in'],
-  ['chubbs-coaching.jpg', 'Chubbs cueing a squat under a wall that says ALL IN THE HIPS', 'The hips'],
-  ['weights.jpg', 'Custom green and gold plates stamped TAP IT IN, CHUBBS, and 400', 'The plates'],
-  ['machine.jpg', 'Custom green machine labeled 400 YARDS, floor stenciled EASE IT', '400 yards'],
-  ['group-class.jpg', 'Kettlebell class under a wall that says HAPPY PLACE', 'Happy place'],
-  ['chubbs-buff-curl.jpg', 'Chubbs curling beside a plate that says TAP IT IN', 'The curl'],
-  ['prosthetic-bar.jpg', 'Chubbs lifting a bar stamped CHUBBS, pad reading NOW LIFT', 'Now lift'],
-  ['supplements.jpg', 'Pre-workout, whey protein, creatine, and BCAAs on the gym counter', 'The counter'],
-  ['chubbs.jpg', 'The original Chubbs Peterson trading card', 'The card'],
+  ['range.jpg', 'Chubbs on the driving range, club in one hand and the wooden hand at his side', 'The range'],
+  ['coach-portrait.jpg', 'Chubbs in the gym, wooden hand in, saying it’s all in the hips', 'All in the hips, son'],
+  ['happy-place.jpg', 'Chubbs in white, the happy place', 'The happy place'],
 ];
 ?>
 <section class="section">
   <div class="wrap">
     <h1 class="page-title">Gallery</h1>
-    <p class="muted">The lines are on the floor, the walls, and the iron. Click a photo to open it full size.</p>
+    <p class="muted">The range, the coach, and the happy place. The floor photos live on the home page, each one once. Click to open full size.</p>
     <div class="gallery">
       <?php foreach ($items as [$file, $alt, $label]): ?>
         <figure>
