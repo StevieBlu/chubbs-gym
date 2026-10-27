@@ -33,7 +33,7 @@ $in    = isset($_SESSION['username']);
         <a class="btn btn-sm" href="<?= e($base) ?>logout/logout.php">Log out</a>
       <?php else: ?>
         <a href="<?= e($base) ?>login/login.php">Log in</a>
-        <a class="btn btn-sm" href="<?= e($base) ?>register/register.php">Join now</a>
+        <a class="btn btn-sm" href="<?= e($base) ?>claim/claim.php">Claim a spot</a>
       <?php endif; ?>
     </nav>
   </div>

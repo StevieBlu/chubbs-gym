@@ -17,7 +17,8 @@
     <div>
       <strong>Members</strong>
       <a href="<?= e($base) ?>login/login.php">Log in</a>
-      <a href="<?= e($base) ?>register/register.php">Join now</a>
+      <a href="<?= e($base) ?>claim/claim.php">Claim a spot</a>
+      <a href="<?= e($base) ?>register/register.php">Create an account</a>
     </div>
   </div>
   <div class="wrap legal">&copy; <?= date('Y') ?> Chubbs Gym. All rights reserved.</div>

@@ -37,6 +37,38 @@ function take_flash() {
     return $f;
 }
 
+function db_soft() {
+    static $conn = false;
+    if ($conn !== false) return $conn ?: null;
+    $cfg = require __DIR__ . '/db.local.php';
+    mysqli_report(MYSQLI_REPORT_OFF);
+    $try = @new mysqli($cfg['host'], $cfg['user'], $cfg['pass'], $cfg['name']);
+    if ($try->connect_error) { $conn = null; return null; }
+    $try->set_charset('utf8mb4');
+    $conn = $try;
+    return $conn;
+}
+
+function ensure_leads($conn) {
+    $conn->query("CREATE TABLE IF NOT EXISTS leads (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      name VARCHAR(120) NOT NULL,
+      email VARCHAR(255) NOT NULL,
+      phone VARCHAR(40) NOT NULL,
+      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+      UNIQUE KEY email_unique (email)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+}
+
+function lead_stats() {
+    $conn = db_soft();
+    if (!$conn) return ['count' => 0, 'left' => 100, 'ok' => false];
+    ensure_leads($conn);
+    $res = $conn->query('SELECT COUNT(*) c FROM leads');
+    $n = $res ? (int)$res->fetch_assoc()['c'] : 0;
+    return ['count' => $n, 'left' => max(0, 100 - $n), 'ok' => true];
+}
+
 // Shows an <img> if the file exists, otherwise a styled placeholder.
 function pic($base, $file, $alt, $class = '') {
     $path = __DIR__ . '/../images/' . $file;
