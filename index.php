@@ -242,38 +242,38 @@ include __DIR__ . '/config/header.php';
     <h2 class="center">Reviews</h2>
     <div class="reviews">
       <article class="review">
-        <div class="who-row"><span class="avatar a1">DP</span><div><strong>Dana Pell</strong><div class="stars" aria-label="5 stars">★★★★★</div><div class="gmeta">Google review · 2 weeks ago</div></div></div>
-        <p>Came for the free visit. Chubbs stood behind the rack for every squat and did not talk over the set. Hook stayed on the bar. I left with the first week written down, and my knees felt normal the next morning.</p>
+        <div class="who-row"><?= pic($base, 'review-dana.jpg', 'Dana Pell', 'avatar') ?><div><strong>Dana Pell</strong><div class="stars" aria-label="5 stars">★★★★★</div><div class="gmeta">Google review · 2 weeks ago</div></div></div>
+        <p>My squat looked okay until the hole, then I’d fold and my knees would cave. I kept adding weight like that was the problem. Chubbs wouldn’t let me. Big breath and a brace before I even walked it out, and the hook stayed on the bar until I stopped leaking air halfway up. Annoying for a week. Then 185 felt like a squat instead of a good morning, and my knees were fine the next day.</p>
       </article>
       <article class="review">
-        <div class="who-row"><span class="avatar a2">ML</span><div><strong>Marcus Lee</strong><div class="stars" aria-label="5 stars">★★★★★</div><div class="gmeta">Google review · a month ago</div></div></div>
-        <p>The weight room looks out on the range. Racks are straight, the 45s read the right way, and the turf lane is about twenty steps from the bench. It is a gym that happens to sit on a golf course, not a poster taped to a warehouse.</p>
+        <div class="who-row"><?= pic($base, 'review-marcus.jpg', 'Marcus Lee', 'avatar') ?><div><strong>Marcus Lee</strong><div class="stars" aria-label="5 stars">★★★★★</div><div class="gmeta">Google review · a month ago</div></div></div>
+        <p>Two plates on the bench was a wall for most of a year. I’d get 225 off my chest and die halfway. Chubbs spotted me and said I was dumping the bar back toward my face and my feet were asleep. Drove my feet, kept the bar over my shoulders, and 205 finally moved for a clean triple that week. Hit 225 two weeks later. I’d been chasing that number since last winter.</p>
       </article>
       <article class="review">
-        <div class="who-row"><span class="avatar a3">PS</span><div><strong>Priya Shah</strong><div class="stars" aria-label="4 stars">★★★★<span class="star-off">★</span></div><div class="gmeta">Google review · 3 weeks ago</div></div></div>
-        <p>He learned my name before he loaded anything. He was on the floor at 7:10, which is what they advertise. I wish the coached day ran past 3. He does not pretend that it does, and the weekend is carts, not him.</p>
+        <div class="who-row"><?= pic($base, 'review-priya.jpg', 'Priya Shah', 'avatar') ?><div><strong>Priya Shah</strong><div class="stars" aria-label="4 stars">★★★★<span class="star-off">★</span></div><div class="gmeta">Google review · 3 weeks ago</div></div></div>
+        <p>Deadlift was all lower back. I’d yank and lean to lock it out. He put a hand on my upper back, told me to push the floor away and finish with my hips, same brace he uses on the squat. 225 went from a scary single to sets of 5. Four stars only because he’s gone at 3, so I have to get here early or I miss him. The cue was worth the alarm.</p>
       </article>
       <article class="review">
-        <div class="who-row"><span class="avatar a4">CA</span><div><strong>Chris Alvarez</strong><div class="stars" aria-label="5 stars">★★★★★</div><div class="gmeta">Google review · last Saturday</div></div></div>
-        <p>The Saturday cart rolled past the bays twice. Hot dog was off the grill, the burger too, not a steamer tray. I got both between a bucket of balls. That is the weekend meal, since the coach is not in on Saturday.</p>
+        <div class="who-row"><?= pic($base, 'review-chris.jpg', 'Chris Alvarez', 'avatar') ?><div><strong>Chris Alvarez</strong><div class="stars" aria-label="5 stars">★★★★★</div><div class="gmeta">Google review · 5 days ago</div></div></div>
+        <p>Front squat was a good morning with extra steps. I’d tip forward as soon as it got heavy. He stopped the set, made me sit straight down and stay braced, and he wouldn’t load the bar until I could do it without the hook saving me. Ego took a hit. A month later I hit depth with 185 and my knees stopped barking on the stairs.</p>
       </article>
       <article class="review">
-        <div class="who-row"><span class="avatar a5">EB</span><div><strong>Ellen Brooks</strong><div class="stars" aria-label="5 stars">★★★★★</div><div class="gmeta">Google review · 6 days ago</div></div></div>
-        <p>The counter is stocked like a real gym: pre-workout, whey, creatine, BCAAs. The person there told me what to eat after the session in one sentence. No speech. I used it at dinner.</p>
+        <div class="who-row"><?= pic($base, 'review-ellen.jpg', 'Ellen Brooks', 'avatar') ?><div><strong>Ellen Brooks</strong><div class="stars" aria-label="5 stars">★★★★★</div><div class="gmeta">Google review · 6 days ago</div></div></div>
+        <p>I could not do a strict pull-up. Bands, a kip, whatever worked. Chubbs had me hang first and actually set my shoulders before I pulled, and he stood there and talked me through it instead of walking off to the next rack. Got one real one on a Thursday. Came back the next morning and got two.</p>
       </article>
       <article class="review">
-        <div class="who-row"><span class="avatar a6">AW</span><div><strong>Andre Williams</strong><div class="stars" aria-label="5 stars">★★★★★</div><div class="gmeta">Google review · a month ago</div></div></div>
-        <p>Green lockers, shoes under the bench, the range out the front door. I held up the guest card and they waved me through. Staff at the gate knew the list. Nobody asked me to pay on the way in.</p>
+        <div class="who-row"><?= pic($base, 'review-andre.jpg', 'Andre Williams', 'avatar') ?><div><strong>Andre Williams</strong><div class="stars" aria-label="5 stars">★★★★★</div><div class="gmeta">Google review · a month ago</div></div></div>
+        <p>Missed 315 on deadlift for a year, always right at the knees. Chubbs watched one rep and said I was hitching because I never braced. Same thing he says on squats: air in, ribs down, then pull. Hit 315 two weeks later and it wasn’t a grinder. I came back for that cue, not the view.</p>
       </article>
     </div>
     <div class="quotes">
       <blockquote>
-        <p>I have belonged to gyms that hung a golf photo on the wall and called it a theme. This one has the green outside the glass and a coach in the rack. The card got me in. Thursday is why I came back.</p>
-        <footer>Jordan Hale · member since spring</footer>
+        <p>I kept losing the squat in the hole and blaming my legs. He wouldn’t let me chase weight until the brace was actually there. Once that clicked, the bar stopped folding me. That’s why I’m still here at 7.</p>
+        <footer>Jordan Hale · squat, after three months of guessing</footer>
       </blockquote>
       <blockquote>
-        <p>The gold jacket is in the case by the desk. They were straight about it: loyal members earn it, the way the pros used to play for it. I am not there yet. The Sunday burger was still worth the drive in from town.</p>
-        <footer>Sam Ortega · comes for the carts and stays for Fridays</footer>
+        <p>I wanted a two-plate bench so badly I was bouncing it off my chest and calling it a PR. He made me pause it and use my legs. 225 finally went up like a lift. That number was the one I actually needed.</p>
+        <footer>Sam Ortega · bench, stuck at 205 for a year</footer>
       </blockquote>
     </div>
   </div>

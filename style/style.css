@@ -103,8 +103,7 @@ details p{margin:.8rem 0 0;color:var(--muted)}
 .review p{margin:.85rem 0 0;font-size:.98rem}
 .who-row{display:flex;gap:.75rem;align-items:center}
 .who-row strong{display:block;font-size:.98rem}
-.avatar{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:600;font-size:.85rem;flex:none}
-.a1{background:#1a73e8}.a2{background:#188038}.a3{background:#c5221f}.a4{background:#e37400}.a5{background:#7b1fa2}.a6{background:#0d47a1}
+.avatar{width:52px;height:52px;border-radius:50%;object-fit:cover;object-position:center 18%;flex:none;display:block}
 .stars{color:#f4b400;letter-spacing:.12em;font-size:.95rem;line-height:1.2}
 .star-off{color:#dadce0}
 .gmeta{color:#5f6368;font-size:.8rem}
