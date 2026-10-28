@@ -72,8 +72,9 @@ include __DIR__ . '/config/header.php';
     <?= pic($base, 'coach-row.jpg', 'Chubbs cueing a one-arm row, hook at the shoulder blade', 'rounded') ?>
     <div>
       <p class="label">The row</p>
-      <h2>Hinge, then pull</h2>
-      <p>One hand on the bench, the dumbbell drives back, and the hook stays up by the shoulder so you can see the cue. He is sweating because he is in the set with you.</p>
+      <h2>Elbow to the hip pocket.</h2>
+      <p>People grab a heavier dumbbell and yank it with the arm, shoulder climbing toward the ear, torso twisting to cheat it up. That is not a row. Chubbs wants the elbow dragged back to the hip pocket, the shoulder quiet, the chest still. That small fix is how a back gets strong enough to hold a record squat.</p>
+      <p>He grins when he says it. He will tap the spot and stay for as many reps as it takes until you can feel the pocket without him pointing.</p>
       <a class="link" href="claim/claim.php">Learn more</a>
     </div>
   </div>
