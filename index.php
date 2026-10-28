@@ -120,7 +120,7 @@ include __DIR__ . '/config/header.php';
         <figcaption>Dead hang, then elbows to the ribs until the chin clears. Shoulders in your ears means you let go.</figcaption>
       </figure>
       <figure>
-        <?= pic($base, 'coach-carry.jpg', 'Chubbs walking a farmer’s carry, wooden hand pointing at a quiet shoulder', 'rounded') ?>
+        <?= pic($base, 'coach-carry.jpg', 'Chubbs seated on a bench, laughing, while a lifter carries one 100-pound plate in each hand', 'rounded') ?>
         <figcaption>Heavy hands, quiet shoulders. If one side hikes up, he walks you back and you set them down.</figcaption>
       </figure>
     </div>
