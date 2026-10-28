@@ -94,12 +94,12 @@ include __DIR__ . '/config/header.php';
 
 <section class="section tint" id="lesson">
   <div class="wrap split">
-    <?= pic($base, 'lesson.jpg', 'Chubbs teaching on the green, wooden hand out, it’s all in the hips', 'rounded') ?>
+    <?= pic($base, 'lesson.jpg', 'Chubbs coaching a deadlift hinge, wooden hand pointing at the hip', 'rounded') ?>
     <div>
       <p class="label">The lesson that stuck</p>
       <h2>It’s all in the hips.</h2>
-      <p>He said it on the green with the wooden hand out, and he says it in the rack. The golf lesson and the squat are the same cue.</p>
-      <p>Bring the question. He will answer it once, then you lift.</p>
+      <p>On the deadlift that means the hinge. Send the hips back, keep the bar over the middle of the foot, and do not turn the pull into a squat. People miss lifts for years by yanking with the back. That one change is the lift.</p>
+      <p>He points at the hip and smiles. He will stay until you can find the hinge without him standing there.</p>
       <a class="btn" href="claim/claim.php">Book the first session</a>
     </div>
   </div>
