@@ -131,7 +131,7 @@ include __DIR__ . '/config/header.php';
   <div class="wrap">
     <p class="label center">Waterbury, Connecticut</p>
     <h2 class="center">The 9th Green at 9:00 PM.</h2>
-    <p class="center muted">You finish a set and the range is right there, through the glass. That is the building. Chubbs is on the floor Monday through Friday, from 7 until 3, and then he is gone until morning. Weekends, the carts take the green. Hot dogs and hamburgers. No coach.</p>
+    <p class="center muted">Come in the evening, when the clubhouse windows are warm and the lights are just coming on over the range. The weight room sits against the glass, so the fairway is part of the room. Chubbs is here Monday through Friday, from 7 until 3, and he will be glad to have you. On weekends the carts circle the green with hot dogs and hamburgers, and the door is still open.</p>
     <div class="mosaic">
       <figure class="wide">
         <?= pic($base, 'facility-exterior.jpg', 'The 9th Green clubhouse at dusk, sign out front, range lights coming on', 'rounded') ?>
