@@ -143,7 +143,7 @@ include __DIR__ . '/config/header.php';
       </figure>
       <figure class="wide">
         <?= pic($base, 'facility-floor.jpg', 'A worn weight room with ALL IN THE HIPS on the floor and the range outside the windows', 'rounded') ?>
-        <figcaption>You can see the flags from the squat rack. He likes it that way. The hinge and the fairway are the same idea.</figcaption>
+        <figcaption>Green racks and a worn bench, with ALL IN THE HIPS painted into the rubber. The windows look straight out onto the range and the yellow flags.</figcaption>
       </figure>
       <figure>
         <?= pic($base, 'facility-racks.jpg', 'Three green racks, each bar with one upright 45 a side, TAP IT IN on the wall', 'rounded') ?>
