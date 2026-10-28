@@ -108,20 +108,20 @@ include __DIR__ . '/config/header.php';
 <section class="section">
   <div class="wrap">
     <p class="label center">Same coach, different station</p>
-    <h2 class="center">He sweats through the session with you.</h2>
-    <p class="center muted">A lunge, a pull-up, a carry. He stands where a coach stands and watches the set. He does not pose for it.</p>
+    <h2 class="center">The small fix moves with you.</h2>
+    <p class="center muted">A lunge, a pull-up, a carry. He finds the one thing you are cheating and he says it with a smile. Then he stays until that rep is honest.</p>
     <div class="pose-row">
       <figure>
-        <?= pic($base, 'coach-lunge.jpg', 'Chubbs kneeling beside a lunge and pointing out the position', 'rounded') ?>
-        <figcaption>The lunge. He watches the front knee and says what to fix.</figcaption>
+        <?= pic($base, 'coach-lunge.jpg', 'Chubbs kneeling beside a lunge, wooden hand pointing at the front knee', 'rounded') ?>
+        <figcaption>Stack the front knee over the laces. If it caves in, he smiles and has you do the rep again.</figcaption>
       </figure>
       <figure>
-        <?= pic($base, 'coach-pullup.jpg', 'Chubbs coaching a pull-up, the lifter’s feet off the floor', 'rounded') ?>
-        <figcaption>The bar. Feet off the floor. He talks you through the ribs.</figcaption>
+        <?= pic($base, 'coach-pullup.jpg', 'Chubbs coaching a pull-up, wooden hand pointing at the ribs, feet off the floor', 'rounded') ?>
+        <figcaption>Dead hang, then elbows to the ribs until the chin clears. Shoulders in your ears means you let go.</figcaption>
       </figure>
       <figure>
-        <?= pic($base, 'coach-carry.jpg', 'Chubbs walking beside a farmer’s carry, watching the shoulders', 'rounded') ?>
-        <figcaption>The carry. He stays half a step behind and watches your shoulders.</figcaption>
+        <?= pic($base, 'coach-carry.jpg', 'Chubbs walking a farmer’s carry, wooden hand pointing at a quiet shoulder', 'rounded') ?>
+        <figcaption>Heavy hands, quiet shoulders. If one side hikes up, he walks you back and you set them down.</figcaption>
       </figure>
     </div>
   </div>
