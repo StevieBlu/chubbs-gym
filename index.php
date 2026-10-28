@@ -5,7 +5,7 @@ $title = 'Chubbs Gym | Your gym. Your pace.';
 include __DIR__ . '/config/header.php';
 ?>
 <section class="hero" id="home">
-  <div class="hero-media"><?= pic($base, 'coach-deadlift.jpg', 'Chubbs coaching a deadlift from the floor, hand on the lifter’s back, hook at his side', 'cover') ?></div>
+  <div class="hero-media"><?= pic($base, 'hero-squat.jpg', 'Chubbs spotting a squat, only his hook on the bar', 'cover') ?></div>
   <div class="hero-shade"></div>
   <div class="wrap hero-copy">
     <p class="kicker">CHUBBS GYM &nbsp; IN HONOR OF CHUBBS PETERSON</p>
