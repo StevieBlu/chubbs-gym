@@ -139,7 +139,7 @@ include __DIR__ . '/config/header.php';
       </figure>
       <figure>
         <?= pic($base, 'facility-cart.jpg', 'A cook at a hot dog and hamburger cart on the grass beside the range', 'rounded') ?>
-        <figcaption>The grill moves around the green all weekend. He does not.</figcaption>
+        <figcaption>On the weekend the cart rolls the grass with hot dogs and hamburgers. Grab a plate and stay out on the green.</figcaption>
       </figure>
       <figure class="wide">
         <?= pic($base, 'facility-floor.jpg', 'A worn weight room with ALL IN THE HIPS on the floor and the range outside the windows', 'rounded') ?>
