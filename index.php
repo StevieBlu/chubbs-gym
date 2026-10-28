@@ -131,31 +131,31 @@ include __DIR__ . '/config/header.php';
   <div class="wrap">
     <p class="label center">Waterbury, Connecticut</p>
     <h2 class="center">The 9th Green at 9:00 PM.</h2>
-    <p class="center muted">The gym sits on the range. Racks inside, a turf lane beside them, the green out the window. Chubbs is here Monday through Friday, 7am to 3pm. He is not here around the clock. On weekends, hot dog and hamburger carts travel the green.</p>
+    <p class="center muted">You finish a set and the range is right there, through the glass. That is the building. Chubbs is on the floor Monday through Friday, from 7 until 3, and then he is gone until morning. Weekends, the carts take the green. Hot dogs and hamburgers. No coach.</p>
     <div class="mosaic">
       <figure class="wide">
-        <?= pic($base, 'facility-exterior.jpg', 'The 9th Green clubhouse at dusk, range lights on, autumn trees', 'rounded') ?>
-        <figcaption>The clubhouse, when the range lights come on.</figcaption>
+        <?= pic($base, 'facility-exterior.jpg', 'The 9th Green clubhouse at dusk, sign out front, range lights coming on', 'rounded') ?>
+        <figcaption>Dusk. The sign is already lit, and somebody is still out on the range.</figcaption>
       </figure>
       <figure>
-        <?= pic($base, 'facility-cart.jpg', 'A hot dog and hamburger cart on the grass beside the driving range', 'rounded') ?>
-        <figcaption>Weekend carts. Hot dogs and hamburgers, moving around the green.</figcaption>
+        <?= pic($base, 'facility-cart.jpg', 'A cook at a hot dog and hamburger cart on the grass beside the range', 'rounded') ?>
+        <figcaption>The grill moves around the green all weekend. He does not.</figcaption>
       </figure>
       <figure class="wide">
-        <?= pic($base, 'facility-floor.jpg', 'The weight room with ALL IN THE HIPS painted on the floor and the range outside', 'rounded') ?>
-        <figcaption>The floor. The range is right outside the glass.</figcaption>
+        <?= pic($base, 'facility-floor.jpg', 'A worn weight room with ALL IN THE HIPS on the floor and the range outside the windows', 'rounded') ?>
+        <figcaption>You can see the flags from the squat rack. He likes it that way. The hinge and the fairway are the same idea.</figcaption>
       </figure>
       <figure>
-        <?= pic($base, 'facility-racks.jpg', 'Three green squat racks, each bar loaded with one upright 45 a side, TAP IT IN on the wall', 'rounded') ?>
-        <figcaption>Racks loaded the way a real gym loads them.</figcaption>
+        <?= pic($base, 'facility-racks.jpg', 'Three green racks, each bar with one upright 45 a side, TAP IT IN on the wall', 'rounded') ?>
+        <figcaption>One 45 a side, number facing you. He will turn a plate around if you load it backwards.</figcaption>
       </figure>
       <figure>
-        <?= pic($base, 'facility-turf.jpg', 'Indoor turf lane with a putter and a hockey stick, TAP IT IN on the grass', 'rounded') ?>
-        <figcaption>The turf lane. Putter, hockey stick, and a short walk to the racks.</figcaption>
+        <?= pic($base, 'facility-turf.jpg', 'A worn indoor turf lane, a putter and a hockey stick on the bench, TAP IT IN on the turf', 'rounded') ?>
+        <figcaption>Ten yards of turf, a putter nobody put away, and the racks through the glass.</figcaption>
       </figure>
       <figure class="wide">
-        <?= pic($base, 'facility-range-night.jpg', 'The driving range at night under floodlights, yardage signs down the fairway', 'rounded') ?>
-        <figcaption>Nine o’clock. The bays are lit and the tree line is dark.</figcaption>
+        <?= pic($base, 'facility-range-night.jpg', 'The driving range at night, yardage signs at 50, 100, 150, and 200, clubhouse windows lit', 'rounded') ?>
+        <figcaption>Nine o’clock, the way the place got its name. The bays stay lit after he has gone home.</figcaption>
       </figure>
     </div>
     <p class="center more"><a class="link" href="gallery.php">More of the building, the lockers, and the green</a></p>
