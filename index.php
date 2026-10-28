@@ -47,9 +47,9 @@ include __DIR__ . '/config/header.php';
   <div class="wrap split">
     <?= pic($base, 'squat-spot.jpg', 'Chubbs spotting a squat with his hook, one upright 45 on each side of the bar', 'rounded') ?>
     <div>
-      <h2>Personal training</h2>
-      <p>This is the spot. Chubbs is behind the rack, hook on the bar, while you sit into the squat. One 45 a side to start, the number right-side up, and he stays until the hips finish the rep.</p>
-      <p>Six weeks off or six years. The first session is a conversation, then a bar you can actually unload.</p>
+      <h2>The inch that wins the title.</h2>
+      <p>A record, a world title, a number you have chased for a year. They turn on a breath taken late, a foot that drifted, a hip that opened early. Chubbs is obsessed with that inch. He finds it before you do, and he will not let it go.</p>
+      <p>He says it with a smile. He will stay for the next set, and the one after, until the small fix is yours. Nobody is too new for the help. Nobody is too good for it either.</p>
       <a class="btn" href="claim/claim.php">Plan your first session</a>
     </div>
   </div>
