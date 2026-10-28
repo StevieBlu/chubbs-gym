@@ -85,10 +85,10 @@ include __DIR__ . '/config/header.php';
     <div>
       <p class="label">Fuel</p>
       <h2>Nutrition counseling</h2>
-      <p>The counter is stocked like a real pro shop: pre-workout, whey protein, creatine, BCAAs. A coach will also talk through what to eat around the work, in plain language, on a weekday.</p>
+      <p>Every tub on the counter is vegan and cruelty-free, and it is there for the work: plant protein, creatine, pre-workout, BCAAs. A coach will talk through what to eat around the session, in plain language, on a weekday.</p>
       <a class="link" href="claim/claim.php">Learn more</a>
     </div>
-    <?= pic($base, 'facility-counter.jpg', 'Pre-workout, whey protein, creatine, and BCAAs on the nutrition counter', 'rounded') ?>
+    <?= pic($base, 'facility-counter.jpg', 'Vegan plant protein, creatine, pre-workout, and BCAAs on the nutrition counter', 'rounded') ?>
   </div>
 </section>
 
@@ -196,7 +196,7 @@ include __DIR__ . '/config/header.php';
           <li><time>7:15</time><p>Squat block. He stands behind the rack, hook on the bar, and he stays until the hips finish.</p></li>
           <li><time>8:30</time><p>Bench and rows. On the bench the hook sits by the sleeve. On the row it stays at the shoulder blade.</p></li>
           <li><time>10:00</time><p>The range. Address first, then the hips. Same cue he used on the squat.</p></li>
-          <li><time>12:00</time><p>The counter. Whey, creatine, a piece of fruit, and a plain answer about lunch.</p></li>
+          <li><time>12:00</time><p>The counter. Plant protein, creatine, a piece of fruit, and a plain answer about lunch.</p></li>
           <li><time>1:00</time><p>Carries, kettlebells, pull-ups. He walks with you or stands where he can see the position. He does not do the set for you.</p></li>
           <li><time>3:00</time><p>He is done. The coached day ends. Questions wait until the next morning.</p></li>
         </ol>
