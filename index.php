@@ -135,7 +135,7 @@ include __DIR__ . '/config/header.php';
     <div class="mosaic">
       <figure class="wide">
         <?= pic($base, 'facility-exterior.jpg', 'The 9th Green clubhouse at dusk, sign out front, range lights coming on', 'rounded') ?>
-        <figcaption>Dusk. The sign is already lit, and somebody is still out on the range.</figcaption>
+        <figcaption>Pull in while the sign is lit and the windows are still warm. There is room on the range if you want to stay.</figcaption>
       </figure>
       <figure>
         <?= pic($base, 'facility-cart.jpg', 'A cook at a hot dog and hamburger cart on the grass beside the range', 'rounded') ?>
